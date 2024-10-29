@@ -1,0 +1,540 @@
+/* wc from 3.3 : */
+
+.widefat .column-wc_actions a.a2wl_aliexpress_order_fulfillment {
+    background-color: #1D9814;
+    color: white;
+}
+
+.widefat .column-wc_actions a.a2wl_aliexpress_order_fulfillment::after {
+    content: "\f174";
+}
+
+.widefat .column-wc_actions a.a2wl-order-info::after {
+    content: "\f348";
+}
+
+.widefat .column-wc_actions a.a2wl-aliexpress-sync::after {
+    content: "\f463";
+}
+
+
+/* wc from 3.3 end */
+
+
+/* wc before from 3.3 : */
+
+.widefat .column-order_actions a.a2wl_aliexpress_order_fulfillment,
+.widefat .column-order_actions a.a2wl-order-info,
+.widefat .column-order_actions a.a2wl-aliexpress-sync {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    padding: 0!important;
+    height: 2em!important;
+    width: 2em;
+}
+
+.widefat .column-order_actions a.a2wl_aliexpress_order_fulfillment::after {
+    font-family: Dashicons;
+    content: "\f174";
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.85;
+}
+
+.widefat .column-order_actions a.a2wl-order-info::after {
+    font-family: Dashicons;
+    content: "\f348";
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.85;
+}
+
+.widefat .column-order_actions a.a2wl-aliexpress-sync::after {
+    font-family: Dashicons;
+    content: "\f463";
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.85;
+}
+
+
+/* wc before from 3.3 end */
+
+.a2wl-order-info {
+    font-weight: bold;
+}
+
+.a2wl_value {
+    font-size: 10px;
+}
+
+.ui-dialog {
+    padding: 0;
+}
+
+.ui-dialog .ui-dialog-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    height: 28px;
+    border-radius: 0
+}
+
+.ui-dialog .ui-dialog-content {
+    font-family: 'Open sans';
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ui-dialog .ui-dialog-content span {
+    font-family: 'Open sans';
+    font-size: 14px;
+    font-weight: normal
+}
+
+.ui-dialog .ui-dialog-content a {
+    font-weight: normal;
+    color: #0073aa;
+}
+
+.ui-dialog .ui-dialog-content a:hover {
+    font-weight: normal;
+    color: #00a0d2;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+    margin: .2em 0em .2em 0;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border-top: 1px solid #ddd;
+    padding-top: 2px;
+    background: #f3f3f3;
+    padding-top: 3px!important;
+    padding-bottom: 3px!important;
+}
+
+.ui-button.ui-button-text-only .ui-button-text {
+    padding: 6px 14px;
+    font-size: 14px;
+    vertical-align: middle;
+    height: auto;
+    margin-bottom: 4px;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    border-radius: 3px;
+    line-height: 1em;
+}
+
+.ui-button.ui-button-text-only.ui-state-hover {
+    border-radius: 3px;
+}
+
+.ui-dialog {
+    padding: 0;
+}
+
+.ui-dialog .ui-dialog-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    height: 28px;
+    border-radius: 0
+}
+
+.ui-dialog .ui-dialog-content {
+    font-family: 'Open sans';
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ui-dialog .ui-dialog-content span {
+    font-family: 'Open sans';
+    font-size: 14px;
+    font-weight: normal
+}
+
+.ui-dialog .ui-dialog-content a {
+    font-weight: normal;
+    color: #0073aa;
+}
+
+.ui-dialog .ui-dialog-content a:hover {
+    font-weight: normal;
+    color: #00a0d2;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+    margin: .2em 0em .2em 0;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    border-top: 1px solid #ddd;
+    padding-top: 2px;
+    background: #f3f3f3;
+    padding-top: 3px!important;
+    padding-bottom: 3px!important;
+}
+
+.ui-button.ui-button-text-only .ui-button-text {
+    padding: 6px 14px;
+    font-size: 14px;
+    vertical-align: middle;
+    height: auto;
+    margin-bottom: 4px;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    border-radius: 3px;
+    line-height: 1em;
+}
+
+.ui-button.ui-button-text-only.ui-state-hover {
+    border-radius: 3px;
+}
+
+.ui-corner-all.ui-widget-content {
+    padding: 0;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+    background: #dfdfdf;
+    border: none;
+}
+
+.ui-dialog-titlebar-close:before {
+    display: none !important
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+    margin: .2em 0em .2em 0;
+    box-shadow: none;
+    outline: none;
+}
+
+#a2wl_update_process_loader {
+    font-weight: bold;
+}
+
+.a2wl-dialog .ui-button-icon-only .ui-button-text,
+.a2wl-dialog .ui-button-icons-only .ui-button-text {
+    padding: 0px;
+}
+
+.a2wl-dialog .ui-button.ui-button-text-only .ui-button-text {
+    margin: 0px;
+}
+
+
+/* place orders in bulk popup start */
+
+.hover_a2wl_fulfillment {
+    height: auto;
+    position: fixed;
+    bottom: 2%;
+    width: 150px;
+    background-color: black;
+    color: white;
+    opacity: 1;
+    right: 5%;
+    z-index: 99999;
+    padding: 15px 1%;
+    min-width: 250px;
+    display: none;
+    border-radius: 8px;
+}
+
+.hover_a2wl_fulfillment .tip {
+    display: none;
+    margin-top: 10px;
+    border-top: 1px white solid;
+    padding-top: 5px;
+}
+
+.hover_a2wl_fulfillment button {
+    display: none;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    min-height: 24px;
+    cursor: pointer;
+}
+
+.hover_a2wl_fulfillment button.payall,
+.hover_a2wl_fulfillment button.close,
+.hover_a2wl_fulfillment button.solve,
+.hover_a2wl_fulfillment button.refresh {
+    background-color: lightgreen;
+    color: white;
+}
+
+/* place orders in bulk popup end */
+
+.modal-overlay.modal-fulfillment {
+    z-index: 10000;
+}
+
+.post-type-shop_order .modal-shipping{
+    z-index: 10001;
+}
+
+.post-type-shop_order .modal-shipping .country-select-to{
+    display: none;
+}
+
+
+
+.modal-overlay.modal-fulfillment .modal-body {
+    min-height: 140px;
+}
+
+/* fulfillment model */
+.modal-overlay.modal-fulfillment .modal-content {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.modal-overlay.modal-fulfillment .loader {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    bottom: 0px;
+    background-color: #fff;
+}
+
+.modal-fulfillment .order-info{
+    display: flex;
+}
+
+.modal-fulfillment .order-info > div {
+    margin-right: 20px;
+}
+
+.modal-fulfillment .order-info .order-message {
+    flex:1;
+    margin: 0;
+}
+
+.modal-fulfillment .name > div {
+    margin-top: 4px;
+}
+
+.modal-fulfillment .order-message, .modal-fulfillment .item-message {
+    font-weight: bold;
+}
+/* .modal-fulfillment .order-message > span, .modal-fulfillment .item-message > span {
+    font-weight: normal;
+} */
+.modal-fulfillment .order-message .error, .modal-fulfillment .item-message .error {
+    color:red;
+}
+.modal-fulfillment .order-message .ok, .modal-fulfillment .item-message .ok {
+    color:green;
+}
+
+.modal-fulfillment .wp-list-table.fulfillment-order-items th {
+    font-weight: bold;
+}
+
+.modal-fulfillment .wp-list-table.fulfillment-order-items tfoot th:first-child, .modal-fulfillment .wp-list-table.fulfillment-order-items thead th:first-child {
+    padding-left: 1em;
+}
+
+.modal-fulfillment .wp-list-table.fulfillment-order-items tbody td:first-child {
+    padding-left: 1em;
+}
+
+.modal-fulfillment .wp-list-table.fulfillment-order-items tbody td, .modal-fulfillment .wp-list-table.fulfillment-order-items tbody th {
+    padding: 1em;
+    line-height: initial;
+}
+.modal-fulfillment .wp-list-table.fulfillment-order-items td, .modal-fulfillment .wp-list-table.fulfillment-order-items th {
+    width: inherit;
+    vertical-align: middle;
+}
+
+.fulfillment-order-items .remove-item {transition: opacity 0.3s;float: right; background: url(../img/icons/close.png) center center no-repeat; background-size: 12px; width: 20px; height: 20px; opacity: 0.5;}
+.fulfillment-order-items .remove-item:hover{opacity: 1;}
+
+
+/* .fulfillment-order-items .photo{
+    width: 60px;
+}
+.fulfillment-order-items .cost{
+    width: 60px;
+}
+.fulfillment-order-items .quantity{
+    width: 60px;
+} */
+
+.modal-fulfillment .wp-list-table.fulfillment-order-items td.actions, .modal-fulfillment .wp-list-table.fulfillment-order-items th.actions{
+    width: 60px;
+}
+
+.fulfillment-order-items .shipping_company{
+    white-space: nowrap;
+}
+
+.fulfillment-order-items .shipping_company select{
+    max-width: 280px;
+}
+
+.fulfillment-order-items .reload-companies{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/icons/reload.png) center center no-repeat;
+    background-size: 60% 60%;
+    vertical-align: middle;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.fulfillment-order-items .reload-companies:hover{
+    opacity: 1;
+}
+
+
+
+.fulfillment-order-items .photo img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.fulfillment-order-items .attributes > div, .fulfillment-order-items .attributes > div > p {
+    display: inline-block;
+}
+
+.fulfillment-order-items .name > a {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.modal-fulfillment .single-order-wrap:not(:last-child) {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-fulfillment .empty {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.modal-fulfillment .order-edit-address-form {
+    display:none;
+    margin-top: 1em;
+}
+
+.modal-fulfillment .order-edit-address-form.open {
+    display:block;
+}
+.modal-fulfillment .order-edit-address-form .form-field {
+    width: 200px;
+    display: inline-block;
+    margin: 4px 0;
+}
+.modal-fulfillment .order-edit-address-form .form-field.hidden {
+    display: none;
+}
+.modal-fulfillment .order-edit-address-form .form-field label {
+    display: inline-block;
+}
+
+.modal-fulfillment .order-edit-address-form .woocommerce-help-tip:before {
+    content: attr(data-tip);
+    position: absolute;
+    z-index: 10;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 180px;
+    font-size: 11px;
+    left: 100%;
+    bottom: 100%;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.2s opacity;
+}
+
+.modal-fulfillment .order-edit-address-form .woocommerce-help-tip:hover:before{
+    opacity: 1;
+}
+
+.a2wl-content .modal-fulfillment .btn-success .btn-icon-wrap{display: none;}
+.a2wl-content .modal-fulfillment .btn-success:disabled {position: relative;padding-left: 42px;border: 1px solid #d2dce8;color: #b5c6da!important;background-color: #ffffff;background-image: none;}
+.a2wl-content .modal-fulfillment .btn-success:disabled .btn-icon-wrap{display: block;}
+.a2wl-content .modal-fulfillment .btn-success .btn-icon-wrap.cssload-container{display: none;}
+.a2wl-content .modal-fulfillment .btn-success.loading .btn-icon-wrap.cssload-container{display: inherit;}
+
+/* fulfillment model */
+

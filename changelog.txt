@@ -1,0 +1,303 @@
+1.0.0 
+* Initial release
+
+1.0.2
+* Fixed issues with the chrome extension
+* Simpliy way to connect your store to the chrome extension
+
+1.0.3
+* Fixed the issue with an empty products description and attributes (item specifics data)
+
+1.1.0
+* Update plugin API
+* Fixed minor bugs
+
+2.0.0
+* Added a feature to import product variants
+* Added a feature to import unlimited products
+* Added a feature to split product variants
+* Added a feature to override product supplier
+* Support the latest Ali2Woo chrome extension
+* Support for WordPress 5.6
+* Support for WooCommerce 4.9
+* Fixed a lot of bugs
+
+2.0.1
+* Fixed minor bugs
+
+2.0.3
+* Fixed a bug causing disappearing of product variations in some cases
+* Enhanced the interface of the Pricing Rules page
+* Fixed a bug in checking for deleted variations
+* Fixed a bug causing unused images loading 
+* Fixed minor bugs
+
+2.0.4
+* Fixed a bug with plugin upgrading script
+* Fixed minor bugs
+
+
+2.0.5
+* Fixed minor bugs
+
+2.0.6
+* Added a new feature to the Import List that allows to rename product attributes in bulk
+* Added the "Convert case of attributes and their values " option to the plugin settings. It allows to convert these data to the same case. For example: Red, red, RED attribute values will be converted to red.
+* Fixed styles of the AliExpress Info popup
+* Fixed error warnings that have appeared when Ali2Woo run with php8
+* Fixed minor bugs
+
+2.0.7
+* Fixed shipping selector bug on the checkout page; it occurred in the latest Woocommerce
+* Fixed the currency symbol placement bug, now the placement can be managed via appropriate settings in Woocommerce.
+* Improved the product background loader; I should work more stable now.
+* Optimized plugin cron jobs, deleted rudiment cron events.
+* Now the "Load External images" button load all images from a product description (see plugin settings)
+* Fixed a lot of minor bugs
+
+2.0.8
+* Fixed backround loader issues.
+* Fixed minor bugs
+
+2.0.9
+* Fixed regular price discount bug
+
+2.1.0
+* Fixed synchronization bug
+
+2.1.1
+* Fixed: Ali2Woo changes the order status if ALL related tracking codes are received;
+* Fixed: Tracking Sync All starts ONLY if a user is logged in the AliExpress account;
+* Changed some texts in alerts appearing while the tracking synchronization script work;
+* Fixed small synchronization bug.
+
+2.1.2
+* Fixed: get product ids query
+* Fixed: do no load unused variation images
+* Fixed: backend review images showing
+
+2.1.3
+* Refactoring source code of the product loader;
+* Added an additional mobile styles to fix a problem with shipping methods drop-down occurring on the cart & checkout page
+* Fixed a table prefix in a couple of SQL requests
+
+2.1.4
+* Added: Compatibility with WP 5.8 and WC 5.5
+* Fixed minor bugs
+
+2.1.5
+* Added reviews loader module;
+* Added a compatibility with the new chrome extension allowing to get tracking numbers automatically
+* Added ability to remove 'Shipping From" attribute automatically
+* Fixed translation template
+* Fixed a lot of minor bugs
+
+2.1.6
+* Fixed crtitical JS bug
+* Updated translation for russian language
+
+2.1.7
+* Added "include shipping cost to the product price" feature
+* Added Setup Wizard
+* Fixed bugs
+
+2.1.8
+* Fixed: product cost that is displayed in the external products
+* Fixed: external product update logic
+* Fixed: during the fulfillment order changes state from "Completed" to "Canceled" or "Pending Payment" when the package is received
+* Fixed minor bugs
+
+2.1.9
+* Fixed: Correct currency is set for products during order fulfillment. (Please note: Chrome extension version should be 1.37 or higher)
+* Fixed loadHTML issue
+* Fixed: skipped empty description processing
+* Fixed minor bugs
+
+2.1.10
+* Improved UX of the order (tracking) sync; now its UX similar to order fulfillment
+* Improved UX of the orders list page: colored order fulfillment button; "AliExpress order ID" is a link to the AliExpress Order page
+* Improved UX of the order edit page: added "eye" button that points to the frontend product product
+
+2.1.11
+* Compatibility with WP 5.9
+* Fixed manual update
+* Fixed minor bugs
+
+2.1.12
+* Fixed manual actions on the product list page
+
+2.2.0
+* Compatibility with WP 6.0
+* Added ability to review order and change its details before starting the order fulfillment process
+* Fixed minor bugs
+
+2.2.1
+* Added ability to place orders using AliExpress API. You can place only 1 order using the API in the lite plugin version.
+
+2.2.2
+* Added a feature to sync orders using AliExpress API. You can sync only 1 order using the API in the lite plugin version.
+* Fixed order fulfillment bug occurring when order consists of several products or variant of the product owned by the same seller
+* Added support for WPML Multicurrency
+* Fixed a shipping import problem occurring in the Import List
+* Fixed a bug in the Reviews settings occurring while choosing the country
+
+2.2.4
+* Removed old bootstrap html/css from the code causing conflicts on some wp themes
+* Added compatibility with Ali2Woo Migration Tool
+* Fixed bug pricing reset in the Import list
+
+2.2.5
+* Fixed AliExpress error messages
+* Improved compatibility with Ali2Woo Migration Tool
+
+2.3.0
+* Migrated to new the new AliExpress API
+* Added built-in search for products in specific AliExpress store or seller
+* Fixed minor bugs
+
+2.3.1
+* Refactor and improve plugin code base
+* Fixed minor bugs
+
+2.3.2
+* Refactor AliExpress Loader
+* Remove rudiment files
+* Update texts
+* Fix minor bugs
+
+2.3.3
+* Restruct "Order Fulfillment" settings
+* Remove "Chrome extension" settings from the plugin
+* Update shipping methods available in "Default Shipping Method" option
+* Fix a rare nug with AliExpress update token
+* Fix empty bug in global shipping rules
+* Fix minor bugs and refactor
+
+2.3.4
+* Fix WordPrress 6.2 compatibility bug
+* Fix bug when Woocommerce is not installed
+* Fix minor bugs and refactor
+
+2.3.5
+* Fix CURL certificate bug
+* Fix PHP bug
+* Fix minor bugs
+
+3.0.24
+* Replaced Ali2Woo Lite with AliNext Lite
+* Enhanced product import module (import works WITHOUT AliExpress token now, but still required for order operations)
+* Added bulk products import via CSV
+* Increased daily quota for orders: 10 operations for syncing or placing orders daily
+* Upgraded built-in product image editor to support larger images
+* Expanded list of supported currencies and languages in the plugin settings
+* Fixed minor bugs
+
+3.0.25
+* Fix problem with place order feature in AliNext Lite
+
+3.1.0
+* Fix integration with new official AliExpress API (fix token, fix order place and sync functions)
+* Fix a lot of minor bugs
+* Switch minimal php version to 8.0
+
+3.1.2
+* Fix notAvailable product exception on product sync
+* Fix change product type bug on product sync
+* Fix switch order status when order is shipped on aliexpress
+* Fix chrome extension connection bug
+
+3.1.3
+* added compatibility with woocommerce HPOS
+* added compatibility with woocommerce 8.2
+* fix a2w_ping() check on some server environment setup
+* update some legacy code, fix minor bugs
+
+3.1.4
+* fix last update time on product update
+* fix tracking_id param in aliexpress affiliate links
+* fix some warnings related with old style function call
+
+3.2.0
+* add feature to synchronize selected orders (see bulk actions)
+* refactor plugin code to improve performance
+* fix minor bugs and errors
+
+3.2.1
+* fix chrome extension connection bug
+* increase daily quota for order place and sync operations to 20 per day (for the lite plugin version)
+
+3.2.4
+* fix few deprecated (legacy) methods in code
+* remove old Requests library from the code and use native Requests library from wordpress core
+* fix Woocommerce 8.6.* compatibility bug
+
+3.2.6
+* fix built-in image editor
+* fix chrome extension connection bug
+* fix is-not-applied price bug
+* fix minor bugs
+
+3.2.7
+* add image type file check to built-in image editor
+* add feature to load AliExpress category tree for imported product
+* replace || with OR in sql queries as this format is  deprectated
+* fix minor bugs
+
+3.2.8
+* fix function saving images in image editor tool
+* fix pricing rules bug in plugin backend
+* fix product description loading
+* update some plugin dependecies
+* fix minor bugs
+
+3.3.0
+* Improve bulk price application script; Now you can close or refresh page when start the process;
+* Add status bar for all backroud processes in order to make it more clear;
+* Fix bug with product descriprtion images;
+* Fix minor bug, old code base refactor;
+
+3.3.2
+* Update background process library, add namespaces for the library;
+* Fix bug with product last-update date;
+* Add cancel button for all background processed;
+* Add php max_execution_time check to system info page
+* Fix minor bug, old code base refactor;
+
+3.3.3
+* Fix plugin activation bug;
+
+3.3.5
+* Refactor import products from CSV;
+* Enhance order fulfillment module; Now order is placed with country currency;
+* Fix minor bugs;
+
+3.3.9
+* Enhanced plugin security by adding WordPress nonce to all Ajax methods
+* Improved plugin security by checking user role in all plugin methods;
+* Enhanced plugin security by escaping HTML input in template views;
+* Improved plugin security by escaping SQL queries;
+* Enhanced order fulfillment module to synchronize product shipping information when refreshing in the fulfillment popup;
+* Fixed minor bugs and improve code style;
+
+3.4.0
+* Enhanced pricing rules module: ability to add a category to pricing rule (if category field is empty, then rule will apply to any category);
+* Enhanced pricing rules module: ability to create Pricing rule sets. Set is a group of pricing rules and settings, you can create few sets and switch between then during sale. Don't forget to use Apply pricing to exiting products feature after you switch to another pricing rule set;
+* Fix image editor bug;
+* Refactor legacy code and fix minor bugs;  
+
+3.4.3
+* Fix bug pricing rules type is not applied on choosing pricing set;
+* Add compatibility with WooCommerce 9.2.*  
+
+3.4.4
+* Add compatibility with WooCommerce 9.3.* 
+* Add server max execution time and memory limit checks on the System Info page
+* Enhance product background loader (should work faster even on cheap hosting plans)
+* Fix shipping loader (premium plugin version)
+* Fix built-in store products` search
+* Fix issue causing Wordfence notice 
+
+3.4.5
+* Enhance settings transfer module
+* Fix minor bugs
+

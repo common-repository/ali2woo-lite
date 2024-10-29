@@ -1,0 +1,23 @@
+{
+    "name": "ali2woo/alinext-lite",
+    "description": "drop shipping plugin for aliexpress and woocommerce",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Ali2Woo Team",
+            "email": "ma.group.plugins@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php-di/php-di": "^7.0",
+        "automattic/jetpack-autoloader": "^2",
+        "psr/container": "1.1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "automattic/jetpack-autoloader": true
+        }
+    }
+}

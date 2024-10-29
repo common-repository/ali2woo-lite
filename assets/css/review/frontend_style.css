@@ -1,0 +1,31 @@
+.a2wl_review_images{
+    display:inline-block;
+    white-space:nowrap;
+    margin-bottom: 5px;
+}
+
+.a2wl_review_images a{
+    display: inline-block !important;
+    margin-right: 5px;    
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.a2wl_review_images a:hover{
+    border-color: #999; 
+}
+
+.comment-text .a2wl_review_images a{
+    box-shadow: none;
+}
+
+.a2wl_review_images img{
+    height: auto;
+    float:none !important;
+    display: inline !important; 
+}
